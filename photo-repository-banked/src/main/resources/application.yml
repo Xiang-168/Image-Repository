@@ -8,13 +8,13 @@ spring:
     # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/photo_repository
+    url: jdbc:mysql://localhost:3306/x_photo
     username: root
-    password: 123456
+    password: 1234
 mybatis-plus:
   configuration:
       # MyBatis 配置
-      map-underscore-to-camel-case: true
+      map-underscore-to-camel-case: false
       # 仅在开发环境下打印日志
       log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
